@@ -13,7 +13,7 @@ env:
   AWS_REGION: us-east-1
 
 jobs:
-  build:
+  deploy-infra:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
